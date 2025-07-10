@@ -1,0 +1,15 @@
+import { API_KEY } from "./constants/constants";
+export const originals = `discover/tv?api_key=${API_KEY}&with_networks=213`;
+export const action = `discover/movie?api_key=${API_KEY}&with_genres=28`;
+export const nowplaying = `/movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`;
+export const popular = `/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
+export const top_rated = `/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`;
+export const comedy = `discover/movie?api_key=${API_KEY}&with_genres=35`;
+export const horror = `discover/movie?api_key=${API_KEY}&with_genres=27`;
+export const romance = `discover/movie?api_key=${API_KEY}&with_genres=10749`;
+export const animation = `discover/movie?api_key=${API_KEY}&with_genres=16`;
+export const crime = `discover/movie?api_key=${API_KEY}&with_genres=80`;
+export const family = `discover/movie?api_key=${API_KEY}&with_genres=10751`;
+export const mystery = `discover/movie?api_key=${API_KEY}&with_genres=9648`;
+export const thriller = `discover/movie?api_key=${API_KEY}&with_genres=53`;
+export const scifi = `discover/movie?api_key=${API_KEY}&with_genres=878`;
