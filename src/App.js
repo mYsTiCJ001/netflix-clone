@@ -24,7 +24,7 @@ function App() {
       <Rowbelow url ={animation} title ='Animation' isSmall />
       <Rowbelow url ={crime} title ='Crime' isSmall />
       <Rowbelow url ={mystery} title ='Mystery' isSmall />
-      <Rowbelow url ={family} title ='Family' isSmall />
+      <Rowbelow url ={family} title ='Fam' isSmall />
     </div>
   )
 }
